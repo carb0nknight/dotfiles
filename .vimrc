@@ -17,7 +17,6 @@ set history=1000                                            " Number of history 
 set undodir=~/.vim/undo/
 set undofile
 set undolevels=1000                                         " # of undo steps
-set undoreload=10000
 set list                                                    " show invisible characters
 set listchars=tab:>·,trail:·                                " but only show tabs and trailing whitespace
 set guioptions-=T                                           " removes toolbar from gvim
