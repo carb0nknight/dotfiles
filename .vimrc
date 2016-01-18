@@ -4,7 +4,7 @@ set number                                                  " Show line numbers
 set numberwidth=                                            " set number column width to 5 characters
 set ruler                                                   " Show line number on statusbar
 set cursorline                                              " highlight current line
-set magic                                                   " For regular expressions turn magic on"
+set magic                                                   " For regular expressions turn magic on
 set wrap                                                    " soft wrap long lines
 set clipboard=unnamedplus                                   " enable clipboard
 set pastetoggle=<F12>                                       " pastetoggle (sane indentation on pastes)
