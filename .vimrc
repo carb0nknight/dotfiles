@@ -1,7 +1,7 @@
 "-------[ Vim Config ]----------------------------------------
 set mouse=a                                                 " Enable mouse support in all modes
 set number                                                  " Show line numbers
-set numberwidth=                                            " set number column width to 5 characters
+set numberwidth=5                                            " set number column width to 5 characters
 set ruler                                                   " Show line number on statusbar
 set cursorline                                              " highlight current line
 set magic                                                   " For regular expressions turn magic on
