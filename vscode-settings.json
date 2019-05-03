@@ -1,0 +1,59 @@
+{
+    "workbench.colorTheme": "Dracula",
+    "files.associations": {
+        "*.js": "javascriptreact"
+    },
+    "editor.fontFamily": "Operator Mono Medium",
+    "terminal.integrated.fontFamily": "Operator Mono Medium",
+    "editor.fontLigatures": true,
+    "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          //following will be in italic (=FlottFlott)
+          "comment",
+          "entity.name.type.class", //class names
+          "entity.name.type.className",
+          "keyword", //import, export, return…
+          "constant", //String, Number, Boolean…, this, super
+          "storage.modifier", //static keyword
+          "storage.type.class.js", //class keyword
+          "entity.other.attribute-name",
+          "entity.other.attribute-name.html"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          //following will be excluded from italics (VSCode has some defaults for italics)
+          "invalid",
+          "keyword.operator",
+          "constant.numeric.css",
+          "keyword.other.unit.px.css",
+          "constant.numeric.decimal.js",
+          "constant.numeric.json"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "editor.fontSize": 13,
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+  "editor.wordWrapColumn": 120,
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "editor.minimap.enabled": true,
+  "breadcrumbs.enabled": true,
+  "editor.renderControlCharacters": false,
+  "workbench.colorCustomizations": {
+    "editor.background": "#0b080e",
+    "terminal.background": "#0b090e"
+  }
+}
