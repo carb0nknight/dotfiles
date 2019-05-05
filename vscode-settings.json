@@ -1,12 +1,22 @@
 {
-    "workbench.colorTheme": "Dracula",
-    "files.associations": {
-        "*.js": "javascriptreact"
-    },
-    "editor.fontFamily": "Operator Mono Medium",
-    "terminal.integrated.fontFamily": "Operator Mono Medium",
-    "editor.fontLigatures": true,
-    "editor.tokenColorCustomizations": {
+  "workbench.colorTheme": "Dracula",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorCustomizations": {
+    "editor.background": "#0b080e",
+    "terminal.background": "#0b090e"
+  },
+  "breadcrumbs.enabled": true,
+  "editor.fontFamily": "Operator Mono Medium",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13,
+  "editor.wordWrapColumn": 120,
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "editor.minimap.enabled": true,
+  "editor.renderControlCharacters": false,
+  "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
         "scope": [
@@ -41,19 +51,9 @@
       }
     ]
   },
-  "editor.fontSize": 13,
-  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.fontFamily": "Operator Mono Medium",
   "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
-  "editor.wordWrapColumn": 120,
-  "editor.rulers": [
-    80,
-    120
-  ],
-  "editor.minimap.enabled": true,
-  "breadcrumbs.enabled": true,
-  "editor.renderControlCharacters": false,
-  "workbench.colorCustomizations": {
-    "editor.background": "#0b080e",
-    "terminal.background": "#0b090e"
+  "files.associations": {
+    "*.js": "javascriptreact"
   }
 }
