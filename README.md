@@ -1,5 +1,5 @@
 # Dotfiles and other configs
-Frequently used configurations and settings for software across devices
+Configurations and settings to speed up deploying, or working within new environments or on new devices.
 
 
 ---
