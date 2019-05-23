@@ -1,4 +1,4 @@
-# Configs
+# Dotfiles and other configs
 Frequently used configurations and settings for software across devices
 
 
