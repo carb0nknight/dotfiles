@@ -8,7 +8,7 @@ Frequently used configurations and settings for software across devices
 
 
 # Tools of the Trade
-List of essential apps and tools essential to my core setup
+Essential apps and software
 
 #### Essentials/Basic Software:
 * Google Chrome
