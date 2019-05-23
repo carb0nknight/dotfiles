@@ -2,6 +2,10 @@
 Frequently used configurations and settings for software across devices
 
 
+---
+---
+---
+
 
 # Tools of the Trade
 List of essential apps and tools essential to my core setup
@@ -25,20 +29,20 @@ List of essential apps and tools essential to my core setup
 * Illustrator
 * XD
 
-### Productivity Software:
+#### Productivity Software:
 * Evernote
 * MeisterTask
 
-### Communication Software:
+#### Communication Software:
 * Discord
 * Slack
 
-### Utility Software:
+#### Utility Software:
 * Proton VPN
 * GlassWire
 * NZXT CAM
 * CCleaner
 
-### Misc Software:
+#### Misc Software:
 * Spotify
 
