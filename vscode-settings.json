@@ -6,7 +6,7 @@
     "terminal.background": "#0b090e"
   },
   "breadcrumbs.enabled": true,
-  "editor.fontFamily": "Operator Mono Medium",
+  "editor.fontFamily": "Operator Mono Lig",
   "editor.fontLigatures": true,
   "editor.fontSize": 13,
   "editor.wordWrapColumn": 120,
@@ -20,14 +20,16 @@
     "textMateRules": [
       {
         "scope": [
-          //following will be in italic (=FlottFlott)
+          //following will be in ligatures
           "comment",
           "entity.name.type.class", //class names
           "entity.name.type.className",
           "keyword", //import, export, return…
+          "storage",
           "constant", //String, Number, Boolean…, this, super
+          "storage.type.function",
           "storage.modifier", //static keyword
-          "storage.type.class.js", //class keyword
+          "storage.type.class", //class keyword
           "entity.other.attribute-name",
           "entity.other.attribute-name.html"
         ],
@@ -51,7 +53,7 @@
       }
     ]
   },
-  "terminal.integrated.fontFamily": "Operator Mono Medium",
+  "terminal.integrated.fontFamily": "Operator Mono Lig",
   "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
   "files.associations": {
     "*.js": "javascriptreact"
