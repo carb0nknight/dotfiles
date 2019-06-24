@@ -1,61 +1,71 @@
 {
-  "workbench.colorTheme": "Dracula",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorCustomizations": {
-    "editor.background": "#0b080e",
-    "terminal.background": "#0b090e"
-  },
-  "breadcrumbs.enabled": true,
-  "editor.fontFamily": "Operator Mono Lig",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 13,
-  "editor.wordWrapColumn": 120,
-  "editor.rulers": [
-    80,
-    120
-  ],
-  "editor.minimap.enabled": true,
-  "editor.renderControlCharacters": false,
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": [
-          //following will be in ligatures
-          "comment",
-          "entity.name.type.class", //class names
-          "entity.name.type.className",
-          "keyword", //import, export, return…
-          "storage",
-          "constant", //String, Number, Boolean…, this, super
-          "storage.type.function",
-          "storage.modifier", //static keyword
-          "storage.type.class", //class keyword
-          "entity.other.attribute-name",
-          "entity.other.attribute-name.html"
-        ],
-        "settings": {
-          "fontStyle": "italic"
+    "workbench.colorCustomizations": {
+      "terminal.background": "#15121b",
+      "terminal.ansiRed": "#ef4e47",
+      "terminal.ansiGreen": "#0af172",
+      "terminal.ansiYellow": "#fae436",
+      "terminal.ansiBlue": "#2599ef",
+      "terminal.ansiMagenta": "#f536a4",
+      "terminal.ansiCyan": "#00d3ff"
+    },
+    "breadcrumbs.enabled": true,
+    "editor.fontFamily": "Operator Mono Lig",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "editor.wordWrapColumn": 120,
+    "editor.rulers": [
+      80,
+      120
+    ],
+    "editor.minimap.enabled": true,
+    "editor.renderControlCharacters": false,
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "scope": [
+            //following will be in ligatures
+            "comment",
+            "entity.name.type.class", //class names
+            "entity.name.type.className",
+            "keyword", //import, export, return…
+            "storage",
+            "constant", //String, Number, Boolean…, this, super
+            "storage.type.function",
+            "storage.modifier", //static keyword
+            "storage.type.class", //class keyword
+            "entity.other.attribute-name",
+            "entity.other.attribute-name.html"
+          ],
+          "settings": {
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "scope": [
+            //following will be excluded from italics (VSCode has some defaults for italics)
+            "invalid",
+            "keyword.operator",
+            "constant.numeric.css",
+            "keyword.other.unit.px.css",
+            "constant.numeric.decimal.js",
+            "constant.numeric.json"
+          ],
+          "settings": {
+            "fontStyle": ""
+          }
         }
-      },
-      {
-        "scope": [
-          //following will be excluded from italics (VSCode has some defaults for italics)
-          "invalid",
-          "keyword.operator",
-          "constant.numeric.css",
-          "keyword.other.unit.px.css",
-          "constant.numeric.decimal.js",
-          "constant.numeric.json"
-        ],
-        "settings": {
-          "fontStyle": ""
-        }
-      }
-    ]
-  },
-  "terminal.integrated.fontFamily": "Operator Mono Lig",
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
-  "files.associations": {
-    "*.js": "javascriptreact"
+      ]
+    },
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.fontFamily": "Inconsolata for Powerline",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.rightClickBehavior": "copyPaste",
+    "files.associations": {
+      "*.js": "javascriptreact"
+    },
+    "workbench.colorTheme": "Dracula"
   }
-}
