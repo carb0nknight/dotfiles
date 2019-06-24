@@ -1,7 +1,7 @@
 {
   "workbench.iconTheme": "material-icon-theme",
     "workbench.colorCustomizations": {
-      "terminal.background": "#15121b",
+      "terminal.background": "#1f1d29",
       "terminal.ansiRed": "#ef4e47",
       "terminal.ansiGreen": "#0af172",
       "terminal.ansiYellow": "#fae436",
