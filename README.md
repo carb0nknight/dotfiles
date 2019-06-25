@@ -12,12 +12,14 @@ Essential apps and software
 
 #### Essentials/Basic Software:
 * Google Chrome
+* Mozilla Firefox
 * Google Drive File Stream
 * FontBase
 * 7zip
 * Dashlane
 * LastPass
-* Hyper Terminal - hyper.is
+* Hyper Terminal - hyper.is (windows)
+* iTerm2 (macOS)
 
 #### Development Software:
 * Visual Studio Code
@@ -25,9 +27,9 @@ Essential apps and software
 * FileZilla
 
 #### Design Software:
-* Photoshop
-* Illustrator
-* XD
+* Adobe Photoshop
+* Adobe Illustrator
+* Adobe XD
 
 #### Productivity Software:
 * Evernote
@@ -40,9 +42,11 @@ Essential apps and software
 #### Utility Software:
 * Proton VPN
 * GlassWire
-* NZXT CAM
-* CCleaner
 
 #### Misc Software:
 * Spotify
+
+#### Games
+* Steam
+* Battle.net
 
