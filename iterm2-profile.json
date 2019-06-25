@@ -87,18 +87,21 @@
   ],
   "Working Directory" : "\/Users\/cody",
   "Blinking Cursor" : true,
-  "Disable Window Resizing" : true,
+  "Space" : 0,
   "Sync Title" : false,
   "Prompt Before Closing 2" : false,
   "BM Growl" : true,
+  "Mouse Reporting" : true,
   "Command" : "",
   "Description" : "Default",
-  "Mouse Reporting" : true,
+  "Disable Window Resizing" : true,
   "Screen" : -1,
   "Selection Color" : {
-    "Green Component" : 0.27843138575553894,
-    "Blue Component" : 0.35294118523597717,
-    "Red Component" : 0.26666668057441711
+    "Red Component" : 0.17875796432296437,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.2371826171875,
+    "Alpha Component" : 1,
+    "Green Component" : 0.16707303375005722
   },
   "Columns" : 80,
   "Idle Code" : 0,
@@ -300,6 +303,7 @@
     }
   },
   "Window Type" : 0,
+  "Cursor Type" : 0,
   "Background Image Location" : "",
   "Blur" : false,
   "Badge Color" : {
@@ -309,12 +313,13 @@
     "Alpha Component" : 0.5,
     "Green Component" : 0.1491314172744751
   },
-  "Scrollback Lines" : 1000,
+  "Scrollback Lines" : 5000,
   "Send Code When Idle" : false,
   "Close Sessions On End" : true,
   "Terminal Type" : "xterm-256color",
   "Visual Bell" : true,
   "Flashing Bell" : false,
+  "Scrollback in Alternate Screen" : false,
   "Silence Bell" : false,
   "Unicode Normalization" : 0,
   "Ansi 14 Color" : {
@@ -324,6 +329,7 @@
     "Alpha Component" : 1,
     "Green Component" : 0.84286990108836013
   },
+  "ASCII Ligatures" : true,
   "Name" : "Cody",
   "Cursor Text Color" : {
     "Green Component" : 1,
@@ -357,11 +363,11 @@
     "Green Component" : 0.9481201171875
   },
   "Link Color" : {
-    "Red Component" : 0,
+    "Red Component" : 0.14509803921568629,
     "Color Space" : "sRGB",
-    "Blue Component" : 0.73423302173614502,
+    "Blue Component" : 0.93725490196078431,
     "Alpha Component" : 1,
-    "Green Component" : 0.35916060209274292
+    "Green Component" : 0.59999999999999998
   },
   "Right Option Key Sends" : 0,
   "Ansi 6 Color" : {
