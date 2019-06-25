@@ -89,7 +89,8 @@ prompt_end() {
 # Context: user@hostname (who am I and where am I)
 prompt_context() {
   if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
-    prompt_segment black default "%(!.%{%F{yellow}%}.)%n@%m"
+    prompt_segment default default "✇"
+    prompt_segment default cyan "%(!.%{%F{yellow}%}.)%n@%m"
   fi
 }
 
@@ -111,7 +112,7 @@ prompt_git() {
     dirty=$(parse_git_dirty)
     ref=$(git symbolic-ref HEAD 2> /dev/null) || ref="➦ $(git rev-parse --short HEAD 2> /dev/null)"
     if [[ -n $dirty ]]; then
-      prompt_segment magenta black
+      prompt_segment yellow black
     else
       prompt_segment green $CURRENT_FG
     fi
@@ -198,7 +199,7 @@ prompt_hg() {
 
 # Dir: current working directory
 prompt_dir() {
-  prompt_segment cyan $CURRENT_FG '%~'
+  prompt_segment white $CURRENT_FG '%~'
 }
 
 # Virtualenv: current working virtualenv
@@ -231,7 +232,7 @@ prompt_status() {
 prompt_aws() {
   [[ -z "$AWS_PROFILE" ]] && return
   case "$AWS_PROFILE" in
-    *-prod|*production*) prompt_segment red yellow  "AWS: $AWS_PROFILE" ;;
+    *-prod|*production*) prompt_segment red white  "AWS: $AWS_PROFILE" ;;
     *) prompt_segment green black "AWS: $AWS_PROFILE" ;;
   esac
 }
