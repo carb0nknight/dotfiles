@@ -1,18 +1,7 @@
 {
-  "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorCustomizations": {
-      "terminal.background": "#1f1d29",
-      "terminal.ansiRed": "#ef4e47",
-      "terminal.ansiGreen": "#0af172",
-      "terminal.ansiYellow": "#fae436",
-      "terminal.ansiBlue": "#2599ef",
-      "terminal.ansiMagenta": "#f536a4",
-      "terminal.ansiCyan": "#00d3ff"
-    },
-    "breadcrumbs.enabled": true,
     "editor.fontFamily": "Operator Mono Lig",
-    "editor.fontLigatures": true,
-    "editor.fontSize": 13,
+    "editor.fontLigatures":  true,
+    "editor.fontSize": 12.5,
     "editor.wordWrapColumn": 120,
     "editor.rulers": [
       80,
@@ -57,6 +46,24 @@
         }
       ]
     },
+
+    "workbench.colorTheme": "Andromeda",
+    "workbench.iconTheme": "Monokai Classic Icons",
+    "workbench.editorAssociations": [],
+    "workbench.colorCustomizations": {
+        "editor.background": "#1a1c22",
+        "sideBar.background": "#252931",
+        "sideBarSectionHeader.background": "#2e323d",
+        "tab.activeBackground": "#2e323d",
+        "terminal.background": "#1a1c22",
+        "terminal.ansiRed": "#ef4e47",
+        "terminal.ansiGreen": "#0af172",
+        "terminal.ansiYellow": "#fae436",
+        "terminal.ansiBlue": "#2599ef",
+        "terminal.ansiMagenta": "#f536a4",
+        "terminal.ansiCyan": "#00d3ff"
+    },
+
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
     "terminal.integrated.shell.linux": "/bin/zsh",
     "terminal.integrated.shell.osx": "/bin/zsh",
@@ -67,7 +74,6 @@
     "files.associations": {
       "*.js": "javascriptreact"
     },
-    "workbench.colorTheme": "Dracula",
-    "terminal.external.osxExec": "iTerm.app",
+    "terminal.external.osxExec": "Hyper.app",
     "terminal.explorerKind": "external"
-  }
+}
